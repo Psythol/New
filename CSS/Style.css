@@ -15,10 +15,27 @@ body{
 	font: normal 16px Tahoma;
 	line-height:1.4em;
 }
-
+a{
+	text-decoration: none;
+}
+.options a{
+color:#000;
+}
 	.container{
 		width:80%;
 		margin:auto;
+	}
+
+	.button{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+}
+	.button:hover{
+		background:#ff0000;
+		color:#fff;
+
 	}
 	.box-1{
 		background-color:#333333;
@@ -27,5 +44,35 @@ body{
 		border: 5px black solid;
 		padding: 50px 50px;
 		
-
 	}
+
+	.options{
+
+	border-bottom:2px solid #3333ff;
+	border-left:6px solid #3333ff;
+	border-radius: 4px;
+}
+	.options ul{
+		font-weight: bold;
+		text-shadow: -2px -1px;
+	}
+
+.my-form{
+	padding:20px;
+
+}
+
+.my-form .form-group{
+	padding-bottom:15px;
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:100%;
+}
+
+
